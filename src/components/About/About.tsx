@@ -1,6 +1,5 @@
 import React from 'react';
 import { Container } from "./styles";
-import Samir from "../../assets/Samir.svg";
 import htmlIcon from "../../assets/html-icon.svg";
 import cssIcon from "../../assets/css-icon.svg";
 import jsIcon from "../../assets/js-icon.svg";
@@ -19,10 +18,7 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
           <p>
-            Hi there! I'm Samir, a website developer with a passion for creating
-            custom online experiences for my clients. With a skill set including
-            HTML, CSS, JavaScript, and React, I have the tools to bring any
-            website vision to life.
+            Passionate front-end web developer with a strong foundation in HTML, CSS, JavaScript, React Js. I also have knowledge of Python, C, C++, Golang, PHP, MySQL. Excited to contribute to innovative projects and enhance user experiences through intuitive design and clean code. A quick learner, adept at collaborating with teams and eager to continuously grow and adapt to new technologies. 
           </p>
         </ScrollAnimation>
         <ScrollAnimation
@@ -31,8 +27,7 @@ export function About() {
           style={{ marginTop: "2rem", marginBottom: "2rem" }}
         >
           <p>
-            But my services go beyond just custom development - I'm also
-            learning wordpress and will able to learn it much sooner.
+          Committed to delivering high-quality work and creating impactful digital solutions. Logical and organized individual with a strong foundation in software engineering. Ability to translate business requirements into innovative software solutions. Excellent teamwork, interpersonal and communication skills.
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
@@ -86,11 +81,7 @@ export function About() {
           </div>
         </div>
       </div>
-      <div className="about-image">
-        <ScrollAnimation animateIn="fadeInRight" delay={0.2 * 1000}>
-          <img src={Samir} alt="Samir Aghav" />
-        </ScrollAnimation>
-      </div>
+
     </Container>
   );
 }

@@ -26,7 +26,7 @@ export const Container = styled.section`
   h2{
     display: inline-block;
     margin-bottom: 2rem;
-    // border-bottom: 0.2rem solid var(--blue);
+    border-bottom: 0.2rem solid var(--blue);
     font-size :3rem;
     margin-top: 0rem;
     color: var(--green);
@@ -41,21 +41,6 @@ export const Container = styled.section`
     font-size: 1.8rem;
     letter-spacing: 0.1rem;
     font-weight: 500;
-  }
-  
-  
-
-  .about-image{
-    text-align: center;
-   img{
-     margin-top: 2rem;
-     width: 75%;
-     filter: grayscale(0);
-     transition: filter 0.5s;
-     &:hover{
-       filter: grayscale(0);
-     }
-   }
   }
 
   @media only screen and (max-width: 480px) {
