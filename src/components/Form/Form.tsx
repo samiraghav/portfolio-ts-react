@@ -113,7 +113,7 @@ export function Form() {
         <button
           type="submit"
           disabled={
-            state.submitting || !validEmail || !name || !subject || !message.trim || !isHuman
+            state.submitting || !validEmail || !name || !subject || !message || !isHuman
           }
         >
   Submit
