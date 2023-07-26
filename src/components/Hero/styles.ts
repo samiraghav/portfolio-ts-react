@@ -25,7 +25,6 @@ export const Container = styled.section`
       margin-bottom: 5rem;
     }
   }
-// New added
   .social-media{
     display: inline-flex;
     align-items: center;
