@@ -1,6 +1,7 @@
 {
   "name": "portfolio-ts-react",
   "version": "0.1.0",
+  "homepage": "https://samiraghav.github.io/portfolio-ts-react",
   "private": true,
   "dependencies": {
     "@formspree/react": "^2.2.4",
@@ -28,6 +29,9 @@
   "scripts": {
     "start": "react-scripts start",
     "test": "react-scripts test",
+    "build": "react-scripts build", 
+    "predeploy": "npm run build", 
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
