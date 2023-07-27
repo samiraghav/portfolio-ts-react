@@ -16,14 +16,14 @@ export function Experience() {
               <p>Jan 2023 - Apr 2023</p>
             </header>
             <div className="timestamp">
-              <p>Shreeshantha It Solutions Private Limited</p> {/* Move "Remote" inside a separate div */}
+              <p>Shreeshantha It Solutions Private Limited</p>
               <div>Remote</div>
             </div>
             <ul>
               <li>Used proficiency in Bootstrap, HTML, CSS, JavaScript, Angular to develop and maintain the websites.</li>
               <li>Developed 
               <a
-                  href="https://www.sportskeeda.com/"
+                  href="https://raaksapphire.com/"
                   target="_blank"
                   rel="noreferrer"
                 >

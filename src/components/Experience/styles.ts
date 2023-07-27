@@ -100,7 +100,7 @@ h2 {
       }
   
       .timestamp p {
-        color: var(--green);
+        color: #00BFFF;
         font-weight: bold;
       }
   
