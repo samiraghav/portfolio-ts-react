@@ -9,33 +9,8 @@ export function Experience() {
       <h2>Experience</h2>
       <div className="experience-list">
 
-        <ScrollAnimation animateIn="flipInX">
           <div className="experience-item">
-          <header>
-              <svg
-                width="50"
-                xmlns="http://www.w3.org/2000/svg"
-                role="img"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="#23ce6b "
-                stroke-width="1"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <title>Folder</title>
-                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
-              </svg>
-              <div className="project-links">
-                <a
-                  href="https://www.sportskeeda.com"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img src={externalLink} alt="Visit site" />
-                </a>
-              </div>
-            </header>
+          
             <header>
               <h3>Software Developer Intern</h3>
               <p>Jan 2023 - Apr 2023</p>
@@ -72,41 +47,14 @@ export function Experience() {
                 </a>.</li>
             </ul>
           </div>
-        </ScrollAnimation>
 
-        <ScrollAnimation animateIn="flipInX">
           <div className="experience-item">
-          <header>
-              <svg
-                width="50"
-                xmlns="http://www.w3.org/2000/svg"
-                role="img"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="#23ce6b "
-                stroke-width="1"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <title>Folder</title>
-                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
-              </svg>
-              <div className="project-links">
-                <a
-                  href="https://www.sportskeeda.com"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img src={externalLink} alt="Visit site" />
-                </a>
-              </div>
-            </header>
             <header>
               <h3>Software Engineer Intern</h3>
               <p>May 2023 - Present</p>
             </header>
             <div className="timestamp">
-              <p>Sportskeeda</p> {/* Move "Remote" inside a separate div */}
+              <p>Sportskeeda</p> 
               <div>Remote</div>
             </div>
             <ul>
@@ -121,7 +69,6 @@ export function Experience() {
                 </a> website.</li>
             </ul>
           </div>
-        </ScrollAnimation>
 
       </div>
     </Container>

@@ -22,10 +22,10 @@ h2 {
       color: #fff;
       transition: 0.3s;
       position: relative;
-      &:hover{
-        transform: translateY(-5px);
-        background-color: var(--pink);
-      }
+      // &:hover{
+      //   transform: translateY(-5px);
+      //   background-color: #524a3ed1;
+      // }
 
       a {
         color: #fff;
@@ -92,7 +92,6 @@ h2 {
       }
 
       .timestamp {
-        /* Add styling for the timestamp div */
         display: flex;
         justify-content: space-between;
         align-items: baseline;
@@ -101,14 +100,13 @@ h2 {
       }
   
       .timestamp p {
-        color: var(--green); /* Set the color for the "Remote" text */
+        color: var(--green);
         font-weight: bold;
       }
   
       .timestamp div {
-        /* Add some space between "Remote" and the organization name */
         margin-left: 1rem;
-        font-size: 2.2rem; /* Set the font size to match "Software Developer Intern" title */
+        font-size: 2.2rem;
       }
 
       .project-links {
