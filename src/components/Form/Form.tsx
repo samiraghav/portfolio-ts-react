@@ -22,7 +22,7 @@ export function Form() {
 
   useEffect(() => {
     if (state.succeeded) {
-      toast.success('Your information has been shared with Samir Aghav!', {
+      toast.success('Email successfully sent!', {
         position: toast.POSITION.BOTTOM_LEFT,
         pauseOnFocusLoss: false,
         closeOnClick: true,
