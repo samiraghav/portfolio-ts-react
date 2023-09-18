@@ -51,14 +51,30 @@ export function Experience() {
           <div className="experience-item">
             <header>
               <h3>Software Engineer Intern</h3>
-              <p>May 2023 - Present</p>
+              <p>May 2023 - Aug 2023</p>
             </header>
             <div className="timestamp">
               <p>Sportskeeda</p> 
               <div>Remote</div>
             </div>
             <ul>
-              <li>Used proficiency in HTML, CSS, JavaScript, PHP, and Golang to maintain the website.</li>
+              <li>Developed a feature to add URL tag items and add Team or Section(super admins) using PHP and JavaScript.</li>
+              <li>Incorporated a feature to add FAQs in players and teams subpages Added subpages for events categories using
+PHP and JavaScript.</li>
+            </ul>
+          </div>
+
+        <div className="experience-item">
+            <header>
+              <h3>Software Development Engineer 1</h3>
+              <p>August 2023 - Present</p>
+            </header>
+            <div className="timestamp">
+              <p>Sportskeeda</p> 
+              <div>Remote</div>
+            </div>
+            <ul>
+              <li>Worked on revamping the contact us page of SportsKeeda website using PHP, JavaScript and Golang.</li>
               <li>Working on the continuous updates in the  
                 <a
                   href="https://www.sportskeeda.com/"
