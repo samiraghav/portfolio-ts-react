@@ -50,3 +50,4 @@ To run this project locally, follow these steps:
 ## Credits
 
 This project was created by Samir Aghav.
+# portfolio-react
