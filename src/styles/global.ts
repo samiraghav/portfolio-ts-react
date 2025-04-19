@@ -1,9 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
-
-
 export const GlobalStyle = createGlobalStyle`
-
   :root{
     --pink: #E31F71;
     --black: #212121;
@@ -59,8 +56,6 @@ export const GlobalStyle = createGlobalStyle`
     }
   }
 
-
-
   ul, li {
     text-decoration: none;
     list-style: none;
@@ -112,14 +107,11 @@ export const GlobalStyle = createGlobalStyle`
     cursor: not-allowed;
   }
 
-
   .logo{
     font-size: 3rem;
     color: #FFFF;
-    // &::first-letter{
-    //   color: var(--green);
-    // }
+    &::first-letter{
+      color: var(--green);
+    }
   }
-  
-
 `
