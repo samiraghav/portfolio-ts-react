@@ -1,7 +1,6 @@
 import { Container } from "./styles";
 import emailIcon from "../../assets/email-icon.svg";
 import phoneIcon from "../../assets/phone-icon.svg";
-import React from "react";
 import { Form } from "../Form/Form";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
