@@ -1,7 +1,6 @@
 import React from "react";
 import { Container } from "./styles";
-import externalLink from "../../assets/external-link.svg";
-import  FadeIn  from "../../FadeIn"; // Make sure this points to the correct path
+import  FadeIn  from "../../FadeIn";
 
 export function Experience() {
   return (
