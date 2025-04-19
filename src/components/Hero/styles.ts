@@ -72,5 +72,6 @@ export const Container = styled.section`
   }
   @media(max-width: 480px){
     margin-top: 45%;
+    margin-bottom: 100%;
   }
 `
