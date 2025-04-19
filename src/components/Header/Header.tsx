@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Container } from './styles';
 import { NavHashLink, HashLink } from 'react-router-hash-link'; // Removed Router import
 import CV from '../../assets/SamirbalasahebAghavResume.pdf'; // Your CV file
