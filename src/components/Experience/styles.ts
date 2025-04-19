@@ -22,10 +22,10 @@ h2 {
       color: #fff;
       transition: 0.3s;
       position: relative;
-      // &:hover{
-      //   transform: translateY(-5px);
-      //   background-color: #524a3ed1;
-      // }
+      &:hover{
+        transform: translateY(-5px);
+        background-color:rgba(85, 77, 66, 0.82);
+      }
 
       a {
         color: #fff;
@@ -49,7 +49,7 @@ h2 {
         }
 
         p {
-          font-size: 2.2rem;
+          font-size: 2rem;
           opacity: 0.8;
         }
       }
@@ -62,13 +62,13 @@ h2 {
 
       ul {
         list-style: none;
-        padding-left: 2rem;
+        // padding-left: 2rem;
 
         li {
           font-size: 2rem;
           margin-bottom: 0.5rem;
           position: relative;
-          padding-left: 1.5rem;
+          // padding-left: 1.5rem;
 
           &::before {
             content: "";
