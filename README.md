@@ -1,85 +1,52 @@
-💼 Samir Aghav Portfolio
-Welcome to my personal portfolio website, designed and developed with modern web technologies like TypeScript and React. This site showcases my work, skills, and provides a way to get in touch with me.
+## Samir Aghav Portfolio
 
-🚀 Features
-📱 Responsive Design – Optimized for all screen sizes
+This is my personal portfolio website built using TypeScript, React, and other technologies.
 
-✨ Interactive UI – Smooth animations and transitions
+## Features
 
-🔁 Dynamic Routing – Seamless navigation using React Router
+1. Responsive design for different screen sizes
 
-🔌 API Integration – Connects with external services and libraries
+2. Interactive user interface with animations and transitions
 
-📬 Contact Form – Allows visitors to get in touch directly
+3. Dynamic content loading with React Router
 
-🛠️ Technologies Used
-TypeScript – Static typing for better development experience
+4. Integration with APIs and third-party libraries
 
-React – Component-based UI framework
+5. Contact form 
 
-React Router – SPA-style navigation
+## Technologies
+1. TypeScript
 
-Styled Components – Modular and scoped styling
+2. React
 
-Axios – HTTP client for API calls
+3. React Router
 
-EmailJS / Formspree – Contact form integrations
+4. Styled Components
 
-Google Fonts – Custom typography
+5. Axios
 
-Font Awesome – Icons and visuals
+6. EmailJS
 
-React Toastify – Elegant toast notifications
+7. Google Fonts
 
-💻 Getting Started
-To run the project locally:
+8. Font Awesome
 
-Clone the repository
+9. Formspree
 
-bash
-Copy
-Edit
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
-Install dependencies
+10. React Toastify
 
-bash
-Copy
-Edit
-npm install
-Start the development server
+## Usage
 
-bash
-Copy
-Edit
-npm start
-Open your browser and navigate to:
-http://localhost:3000
+To run this project locally, follow these steps:
 
-🌐 Deployment (GitHub Pages)
-To deploy this project on GitHub Pages:
+## Clone this repository to your local machine.
 
-Install the gh-pages package:
+1. Install the dependencies by running npm install in the project directory.
 
-bash
-Copy
-Edit
-npm install --save gh-pages
-Add the following to your package.json:
+2. Start the development server by running npm start.
 
-json
-Copy
-Edit
-"homepage": "https://your-username.github.io/your-repo-name",
-"scripts": {
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
-}
-Deploy:
+3. Open http://localhost:3000 in your browser to view the website.
 
-bash
-Copy
-Edit
-npm run deploy
-🙌 Credits
-Created with 💙 by Samir Aghav
+## Credits
+
+This project was created by Samir Aghav.
